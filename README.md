@@ -35,7 +35,7 @@ Sync to the lastest release code:
 ```sh
 $ mkdir px30 && cd px30
 
-repo init --repo-url=https://github.com/rockchip-linux/repo -u https://github.com/engicam-stable/manifests -b px30 -m px30_linux_release_v1.3.0_20200224.xml
+repo init --repo-url=https://github.com/rockchip-linux/repo -u https://github.com/engicam-stable/manifests -b px30 -m px30_linux_release.xml
 
 $ .repo/repo/repo sync
 ```
