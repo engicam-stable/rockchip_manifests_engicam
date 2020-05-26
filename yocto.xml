@@ -14,5 +14,7 @@
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
   </project>
-  <project path="yocto/build/conf" name="linux/build" revision="yocto-next"/>
+  <project path="yocto/build/conf" name="rockchip_yocto_build_engicam" remote="engicam" revision="engicam-master" sync-j="4">
+    <linkfile dest="yocto/build/conf/local.conf" src="px30-core-evb2.conf"/>
+  </project>
 </manifest>
