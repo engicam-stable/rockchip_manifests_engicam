@@ -6,6 +6,7 @@
   <project path="yocto/meta-openembedded" name="linux/yocto/meta-openembedded" remote="rk" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" upstream="thud"/>
   <project path="yocto/meta-qt5" name="linux/yocto/meta-qt5" remote="rk" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
   <project path="yocto/meta-rockchip" name="linux/yocto/meta-rockchip" revision="yocto-next"/>
+  <project path="yocto/meta-engicam-rk" name="meta-engicam-rk" remote="engicam" revision="master" sync-j="4"/>
   <project path="yocto/meta-rust" name="linux/yocto/meta-rust" remote="rk" revision="5cda04c7c2158fc982502ca1e7893f71e4ca1729" upstream="master"/>
   <project path="yocto/poky" name="linux/poky" remote="rk" revision="47925dc5f93c19d44dcecacb3afb5893a851a4e4" upstream="thud">
     <linkfile dest="yocto/scripts" src="scripts"/>
