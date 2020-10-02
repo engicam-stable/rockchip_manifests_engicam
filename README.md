@@ -35,7 +35,19 @@ Sync to the lastest release code:
 ```sh
 $ mkdir px30 && cd px30
 
-repo init --repo-url=https://github.com/rockchip-linux/repo -u https://github.com/engicam-stable/manifests -b px30 -m px30_linux_release.xml
+repo init -u https://github.com/engicam-stable/rockchip_manifests_engicam -b px30 -m px30_linux_release.xml
+
+$ .repo/repo/repo sync
+```
+
+## The RK3399 chips
+
+Sync to the lastest release code:
+
+```sh
+$ mkdir rk3399 && cd rk3399
+
+repo init -u https://github.com/engicam-stable/rockchip_manifests_engicam -b rk3399 -m rk3399_linux_release.xml
 
 $ .repo/repo/repo sync
 ```
