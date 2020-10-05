@@ -28,6 +28,11 @@ $ git clone https://github.com/rockchip-linux/repo ${HOME}/repo
 $ PATH="${HOME}/repo:${PATH}"
 ```
 
+## Get repository access
+SDK is composed by repo from Engicam and by repo from Rockchip.
+Engicam source code is public on Github, but to download from Rockchip git server you need an account
+to access the source code repository provided by Rockchip.
+
 ## The PX30 chips
 
 Sync to the lastest release code:
