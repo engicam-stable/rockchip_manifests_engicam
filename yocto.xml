@@ -5,7 +5,7 @@
   <project path="yocto/meta-clang" name="linux/yocto/meta-clang" remote="rk" revision="22f0b0eaad454279c604a83dba53be6e6efb1a06" upstream="thud"/>
   <project path="yocto/meta-openembedded" name="linux/yocto/meta-openembedded" remote="rk" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" upstream="thud"/>
   <project path="yocto/meta-qt5" name="linux/yocto/meta-qt5" remote="rk" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
-  <project path="yocto/meta-rockchip" name="linux/yocto/meta-rockchip" revision="a12a8d404c0a12bd30f0200ee84d06b00894f1f6"/>
+  <project path="yocto/meta-rockchip" name="linux/yocto/meta-rockchip" revision="a12a8d404c0a12bd30f0200ee84d06b00894f1f6" upstream="yocto-next"/>
   <project path="yocto/meta-engicam-rk" name="meta-engicam-rk" remote="engicam" revision="master" sync-j="4">
     <linkfile dest="yocto/rk-setup-release.sh" src="tools/rk-setup-release.sh"/>
   </project>
